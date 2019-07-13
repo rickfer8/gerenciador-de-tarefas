@@ -6,12 +6,7 @@ describe('workspace-project App', () => {
 
   beforeEach(() => {
     page = new AppPage();
-  });
-
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to gerenciador-de-tarefas!');
-  });
+  }); 
 
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser
